@@ -3,7 +3,7 @@
 	<Name value="ISI-Craft-But-Do-Not-Place-Land-Claim-Block-Challenge" />
 	<DisplayName value="ISI Craft But Do Not Place Land Claim Block Challenge" />
 	<Version value="1.0.0.0" />
-	<Description value="The Craft Land Claim Block challenge no longer requires placing the block. This prevents left over land claim blocks from cluttering a server." />
+	<Description value="Removes the requirement of placing the Land Claim Block created in the challenge. Helps prevent players from forgetting to remove Land Claim Blocks placed on a sever just to complete a challenge." />
 	<Author value="IronSharkInc" />
 	<Website value="https://github.com/IronSharkInc/7-Days-to-Die-Mods/tree/main/1.0/ISI-Craft-But-Do-Not-Place-Land-Claim-Block-Challenge" />
 </xml>
