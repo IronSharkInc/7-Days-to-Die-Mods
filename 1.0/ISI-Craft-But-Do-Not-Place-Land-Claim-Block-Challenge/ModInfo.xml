@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ISI-Craft-But-Do-Not-Place-Land-Claim-Block-Challenge" />
+	<DisplayName value="ISI Craft But Do Not Place Land Claim Block Challenge" />
+	<Version value="1.0.0.0" />
+	<Description value="The Craft Land Claim Block challenge no longer requires placing the block. This prevents left over land claim blocks from cluttering a server." />
+	<Author value="IronSharkInc" />
+	<Website value="TODO" />
+</xml>

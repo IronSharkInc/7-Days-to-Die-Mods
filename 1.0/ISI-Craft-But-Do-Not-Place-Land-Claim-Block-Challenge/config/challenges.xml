@@ -1,0 +1,10 @@
+<config>
+    <!-- Remove challenge to place land claim block-->
+    <remove xpath="/challenges/challenge[@name='craftLandclaim']"/>
+    <!-- Replace with challenge to craft (but not place) land claim block -->
+    <insertAfter xpath="/challenges/challenge[@name='groupCompleteChallenge']">
+        <challenge name="craftLandclaim" title_key="challengeCraftLandclaim" icon="ui_game_symbol_challenge_homesteading_place_land_claim" group="Homesteading" short_description_key="challengeCraftLandclaimShort" description_key="challengeCraftLandclaimDesc">
+            <objective type="Craft" item="keystoneBlock"/>
+        </challenge>
+    </insertAfter>
+</config>
