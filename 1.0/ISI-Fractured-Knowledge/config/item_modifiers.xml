@@ -9,7 +9,7 @@
         - Motor Tools (Chainsaw, Auger) -30%
         - Candy (Hackers, Rock Buster) -10%
         - Books (Mining 3 Coffee Buzz, Mining 7/7) -5%
-        - Twitch -25%
+        - Twitch (Bad Learner) -25%
  -->
 <config>
     <append xpath="/item_modifiers">
