@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ISI-Fractured-Knowledge" />
+	<DisplayName value="ISI Fractured Knowledge" />
+	<Version value="1.0.0.0" />
+	<Description value="Adds a tool/armor mod that reduces XP gain" />
+	<Author value="IronSharkInc" />
+	<Website value="https://github.com/IronSharkInc/7-Days-to-Die-Mods/tree/main/1.0/TODO" />
+</xml>

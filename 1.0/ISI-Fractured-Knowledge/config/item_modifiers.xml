@@ -1,0 +1,31 @@
+<!-- 
+    Adds armor/tool mods that reduce XP gained from harvesting or upgrading.
+
+    WARNING: This can reduce XP gain to 0 or even cause loss of XP.
+
+    Watch out for these other sources of XP reduction:
+        - Perks (Salvage Operations, Mother Lode) -10% -> -40%
+        - Steel Tools (Axe, Pickaxe, Shovel) -10%
+        - Motor Tools (Chainsaw, Auger) -30%
+        - Candy (Hackers, Rock Buster) -10%
+        - Books (Mining 3 Coffee Buzz, Mining 7/7) -5%
+        - Twitch -25%
+ -->
+<config>
+    <append xpath="/item_modifiers">
+        <!-- installing this in armor and tools allows this to stack 5x (4x armor + 1x equipped tool) -->
+        <item_modifier name="modFracturedKnowledge" installable_tags="armor,tool" modifier_tags="misc" blocked_tags="noMods" type="attachment">
+            <property name="Extends" value="modGeneralMaster"/>
+            <property name="CustomIcon" value="resourceBrokenGlass"/>
+            <property name="DescriptionKey" value="modFracturedKnowledgeDesc"/>
+            <property name="DisplayType" value="displayFracturedKnowledge"/>
+            <property name="Material" value="MresourceBrokenGlass"/>
+
+            <effect_group tiered="false">
+                <!-- keep these in sync -->
+                <display_value name="dPlayerExpReduction" value="-.25"/>
+                <passive_effect name="PlayerExpGain" operation="perc_add" value="-.25" tags="Harvesting,Upgrading"/>
+            </effect_group>
+        </item_modifier>
+    </append>
+</config>

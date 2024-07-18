@@ -1,0 +1,8 @@
+<config>
+    <append xpath="/recipes">
+        <recipe name="modFracturedKnowledge" count="1">
+            <ingredient name="resourceBrokenGlass" count="5"/>
+        </recipe>
+    </append>
+</config>
+

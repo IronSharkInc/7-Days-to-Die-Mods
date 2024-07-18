@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+modFracturedKnowledge,item_modifiers,mod,,,Fractured Knowledge,,,,,,,,,,,,,
+modFracturedKnowledgeDesc,item_modifiers,mod,,x,"How else would they keep up with your level of incompetence? Reduces XP gain from harvesting and upgrading.",,,,,,,,,,,,,
